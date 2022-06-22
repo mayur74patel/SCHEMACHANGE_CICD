@@ -10,11 +10,11 @@ on:
     workflow_dispatch:
 
 jobs:
-    deploy-snowflake-change-jobs:
+    snowflake-devops-demo:
         runs-on: ubuntu-latest
     steps:
         - name: Checkout repository
-          uses: actions/checkout@v1
+          uses: actions/checkout@v2
         
         - name: use Python 3.8.x
           uses: actions/setup-python@v2.2.1
